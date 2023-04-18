@@ -768,16 +768,19 @@ color: rgb(24, 98, 115);
           }}
           .boxes{
             display: grid;
-            grid-template-rows: 89% 89% ; 
+            grid-template-rows: 49% 49% ; 
             grid-template-columns: 45% 45%;
            transform: translateY(120px);
             justify-content: center;
            .boxestext{
-            margin-left: 48px;
-            margin-top: 79px;
+            margin-left: 90px;
+     
+       
             color: white;
             h4{
                 font-size:17px ;
+             
+
             }
             p{
                 font-size: 28px;
@@ -804,4 +807,23 @@ color: rgb(24, 98, 115);
            background-size: cover;
           }
     }
+    
+    .sixth{
+        min-width: 1300px;
+        height: 500px;
+        .sixth-top{
+            h1{
+                font-size: $myFontSize;
+            }
+        }
+    }
+    .map{
+      height: 700px;
+    }
+    .map-section{
+      min-width:1300px
+    }
+footer{
+    min-width: 1300px;
+}
 }

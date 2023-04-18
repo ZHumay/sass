@@ -861,14 +861,13 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   }
   .fifth .boxes {
     display: grid;
-    grid-template-rows: 89% 89%;
+    grid-template-rows: 49% 49%;
     grid-template-columns: 45% 45%;
     transform: translateY(120px);
     justify-content: center;
   }
   .fifth .boxes .boxestext {
-    margin-left: 48px;
-    margin-top: 79px;
+    margin-left: 90px;
     color: white;
   }
   .fifth .boxes .boxestext h4 {
@@ -893,6 +892,22 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .fifth .box4 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
     background-size: cover;
+  }
+  .sixth {
+    min-width: 1300px;
+    height: 500px;
+  }
+  .sixth .sixth-top h1 {
+    font-size: 45px;
+  }
+  .map {
+    height: 700px;
+  }
+  .map-section {
+    min-width: 1300px;
+  }
+  footer {
+    min-width: 1300px;
   }
 }
 
