@@ -617,7 +617,7 @@ footer{
   .first{
     background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
     height: 1000px;
-    min-width: 1300px;
+    min-width: 1332px;
  background-size: cover;
     background-repeat: no-repeat;
  
@@ -626,18 +626,22 @@ footer{
 .first-section-center{
   @include display;
     flex-direction: column;
-  
     transform: translateY(200px);
     .first-section-h{
-        font-size: 85px;
+        font-size: 70px;
         color:#212529;
+        width: 40%;
+text-align: center;
+
     
     }
     p{
         color:#212529;
         font-size:27px;
+        width: 70%;
         line-height: 20px;
     font-weight: 550;
+    margin-left: 60px;
         transform: translateY(-80px);
       
     }
@@ -650,7 +654,7 @@ footer{
 .second{
     background-color: white;
     height: 410px;
-    min-width: 1300px
+    min-width: 1332px
 }
 .second-section-center{
  @include display;
@@ -681,7 +685,7 @@ color: rgb(24, 98, 115);
 .third{
     background-color: #1D809F;
     height: 530px;
-    min-width: 1300px;
+    min-width: 1332px;
     .third-top{
       @include display;
       flex-direction: column;
@@ -756,7 +760,7 @@ color: rgb(24, 98, 115);
 .fourth{
     height: 920px;
     margin-top: -22px;
-    min-width: 1300px;
+    min-width: 1332px;
     .fourth-section-center{
         @include display;
         flex-direction: column;
@@ -775,7 +779,7 @@ color: rgb(24, 98, 115);
   }
   .fifth{
     height: 1400px;
-    min-width:1300px;
+    min-width:1332px;
     .fifth-top{
         @include display;
         flex-direction: column;
@@ -836,7 +840,7 @@ color: rgb(24, 98, 115);
     }
     
     .sixth{
-        min-width: 1300px;
+        min-width: 1332px;
         height: 500px;
         .sixth-top{
             h1{
@@ -848,9 +852,9 @@ color: rgb(24, 98, 115);
       height: 700px;
     }
     .map-section{
-      min-width:1300px
+      min-width:1332px
     }
 footer{
-    min-width: 1300px;
+    min-width: 1332px;
 }
 }
