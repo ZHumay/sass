@@ -679,7 +679,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .first {
     background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
     height: 1000px;
-    min-width: 1300px;
+    min-width: 1332px;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -691,14 +691,18 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
     transform: translateY(200px);
   }
   .first-section-center .first-section-h {
-    font-size: 85px;
+    font-size: 70px;
     color: #212529;
+    width: 50%;
+    text-align: center;
   }
   .first-section-center p {
     color: #212529;
-    font-size: 27px;
+    font-size: 29px;
+    width: 45%;
     line-height: 20px;
     font-weight: 550;
+    margin-left: 60px;
     transform: translateY(-80px);
   }
   .first-section-center .first-section-btn {
@@ -716,7 +720,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .second {
     background-color: white;
     height: 410px;
-    min-width: 1300px;
+    min-width: 1332px;
   }
   .second-section-center {
     display: flex;
@@ -756,7 +760,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .third {
     background-color: #1D809F;
     height: 530px;
-    min-width: 1300px;
+    min-width: 1332px;
   }
   .third .third-top {
     display: flex;
@@ -838,7 +842,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .fourth {
     height: 920px;
     margin-top: -22px;
-    min-width: 1300px;
+    min-width: 1332px;
   }
   .fourth .fourth-section-center {
     display: flex;
@@ -866,7 +870,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   }
   .fifth {
     height: 1400px;
-    min-width: 1300px;
+    min-width: 1332px;
   }
   .fifth .fifth-top {
     display: flex;
@@ -921,7 +925,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
     background-size: cover;
   }
   .sixth {
-    min-width: 1300px;
+    min-width: 1332px;
     height: 500px;
   }
   .sixth .sixth-top h1 {
@@ -931,11 +935,9 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
     height: 700px;
   }
   .map-section {
-    min-width: 1300px;
+    min-width: 1332px;
   }
   footer {
-    min-width: 1300px;
+    min-width: 1332px;
   }
-}
-
-/*# sourceMappingURL=index.css.map */
+}/*# sourceMappingURL=index.css.map */
