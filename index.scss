@@ -43,6 +43,9 @@ body{
    @include button;
    transform: translateY(-60px);
     }
+    .first-section-btn:hover{
+        background-color: #41accc;
+    }
    
 }
 .second{
@@ -69,6 +72,9 @@ color: rgb(24, 98, 115);
   .second-section-btn{
    @include button;
    background-color: rgb(39, 39, 39);
+  }
+  .second-section-btn:hover{
+    background-color: #4f5459;
   }
 }
 .third{
@@ -163,6 +169,9 @@ color: rgb(24, 98, 115);
     .fourth-section-btn{
         @include button;
     }
+    .fourth-section-btn:hover{
+        background-color: #41accc;
+    }
 }
 .fifth{
     height: 1200px;
@@ -203,7 +212,6 @@ color: rgb(24, 98, 115);
            }
            .box1{
              background-image:linear-gradient(rgba(0, 0, 0, 0.487),rgba(0, 0, 0, 0.1)) , url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
-         
             
            }
            .box2{
@@ -216,6 +224,19 @@ color: rgb(24, 98, 115);
            .box4{
            background-image:linear-gradient(rgba(0, 0, 0, 0.427),rgba(0, 0, 0, 0.1)) , url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
            }
+    .box1:hover{
+        transform: scale(0.9);
+}
+.box2:hover{
+    transform: scale(0.9);
+}
+.box3:hover{
+    transform: scale(0.9);
+}
+.box4:hover{
+    transform: scale(0.9);
+}
+           
     }
     .sixth{
         height: 300px;
@@ -239,10 +260,16 @@ color: rgb(24, 98, 115);
             border-radius: 8px;
             width: 150px;
         }
+        .sixth-btn1:hover{
+            background-color: #a4aab0
+        }
         .sixth-btn2{
             @extend .sixth-btn1;
             background-color: #212529;
             color: white;
+        }
+        .sixth-btn2:hover{
+            background-color: #4f5459;
         }
     }
 footer{

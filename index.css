@@ -46,6 +46,9 @@ body {
   font-weight: 530;
   transform: translateY(-60px);
 }
+.first-section-center .first-section-btn:hover {
+  background-color: #41accc;
+}
 
 .second {
   background-color: white;
@@ -82,6 +85,9 @@ body {
   font-size: 15px;
   font-weight: 530;
   background-color: rgb(39, 39, 39);
+}
+.second-section-center .second-section-btn:hover {
+  background-color: #4f5459;
 }
 
 .third {
@@ -195,6 +201,9 @@ body {
   font-size: 15px;
   font-weight: 530;
 }
+.fourth .fourth-section-btn:hover {
+  background-color: #41accc;
+}
 
 .fifth {
   height: 1200px;
@@ -247,6 +256,18 @@ body {
 .fifth .box4 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
 }
+.fifth .box1:hover {
+  transform: scale(0.9);
+}
+.fifth .box2:hover {
+  transform: scale(0.9);
+}
+.fifth .box3:hover {
+  transform: scale(0.9);
+}
+.fifth .box4:hover {
+  transform: scale(0.9);
+}
 
 .sixth {
   height: 300px;
@@ -274,9 +295,15 @@ body {
   border-radius: 8px;
   width: 150px;
 }
+.sixth .sixth-btn1:hover, .sixth .sixth-btn2:hover {
+  background-color: #a4aab0;
+}
 .sixth .sixth-btn2 {
   background-color: #212529;
   color: white;
+}
+.sixth .sixth-btn2:hover {
+  background-color: #4f5459;
 }
 
 footer {
