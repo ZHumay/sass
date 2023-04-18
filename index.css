@@ -1,0 +1,691 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:wght@300&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.first {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  height: 900px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.first-section-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(200px);
+}
+.first-section-center .first-section-h {
+  font-size: 85px;
+  color: #212529;
+}
+.first-section-center p {
+  color: #212529;
+  font-size: 27px;
+  line-height: 20px;
+  font-weight: 550;
+  transform: translateY(-80px);
+}
+.first-section-center .first-section-btn {
+  background-color: #1d809f;
+  color: white;
+  border: none;
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 530;
+  transform: translateY(-60px);
+}
+
+.second {
+  background-color: white;
+  height: 350px;
+}
+
+.second-section-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(80px);
+}
+.second-section-center a {
+  color: rgb(24, 98, 115);
+}
+.second-section-center h1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.second-section-center p {
+  font-size: 18px;
+  color: #797575;
+  transform: translateY(-30px);
+}
+.second-section-center .second-section-btn {
+  background-color: #1d809f;
+  color: white;
+  border: none;
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 530;
+  background-color: rgb(39, 39, 39);
+}
+
+.third {
+  background-color: #1D809F;
+  height: 530px;
+}
+.third .third-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(90px);
+}
+.third .third-top h4 {
+  color: #ecb807;
+  line-height: 0px;
+}
+.third .third-top h1 {
+  color: white;
+  font-size: 45px;
+  line-height: 0px;
+  margin: 18px;
+}
+.third .third-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(120px);
+}
+.third .third-bottom .circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.third .third-bottom .circle {
+  background-color: white;
+  margin: 30px 90px 0px 110px;
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+.third .third-bottom .fa-solid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  width: 39px;
+  height: 32px;
+  font-size: 25px;
+  margin-top: 38px;
+}
+.third .third-bottom .mustache {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 35px;
+  margin-top: 38px;
+}
+.third .third-bottom .bottom-circles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.third .third-bottom .text {
+  text-align: center;
+  padding: 0 42px;
+  color: white;
+}
+.third .third-bottom h3 {
+  font-size: 23px;
+  line-height: 16px;
+}
+.third .third-bottom p {
+  line-height: 1px;
+  color: #c3c3c3;
+  font-weight: 500px;
+  font-size: 17px;
+}
+
+.fourth {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 720px;
+  margin-top: -19.7px;
+}
+.fourth .fourth-section-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(200px);
+}
+.fourth h1 {
+  font-size: 50px;
+  width: 400px;
+  text-align: center;
+  color: #212529;
+}
+.fourth .fourth-section-btn {
+  background-color: #1d809f;
+  color: white;
+  border: none;
+  width: 170px;
+  height: 70px;
+  border-radius: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 15px;
+  font-weight: 530;
+}
+
+.fifth {
+  height: 1200px;
+}
+.fifth .fifth-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(80px);
+}
+.fifth .fifth-top h4 {
+  color: #ecb807;
+  line-height: 0px;
+}
+.fifth .fifth-top h1 {
+  color: black;
+  font-size: 45px;
+  line-height: 0px;
+  margin: 18px;
+}
+.fifth .boxes {
+  display: grid;
+  grid-template-rows: 400px 400px;
+  grid-template-columns: 600px 600px;
+  transform: translateY(120px);
+  justify-content: center;
+}
+.fifth .boxes .boxestext {
+  margin-left: 50px;
+  margin-top: 260px;
+  color: white;
+}
+.fifth .boxes .boxestext h4 {
+  font-size: 16px;
+}
+.fifth .boxes .boxestext p {
+  font-size: 17px;
+  width: 420px;
+}
+.fifth .box1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.487), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+}
+.fifth .box2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+}
+.fifth .box3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+}
+.fifth .box4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+}
+
+.sixth {
+  height: 300px;
+  background-color: #1D809F;
+  margin-top: -90px;
+}
+.sixth .sixth-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(70px);
+  color: white;
+  font-size: 20px;
+}
+.sixth .sixth-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+.sixth .sixth-btn1, .sixth .sixth-btn2 {
+  margin: 20px;
+  height: 60px;
+  border: none;
+  border-radius: 8px;
+  width: 150px;
+}
+.sixth .sixth-btn2 {
+  background-color: #212529;
+  color: white;
+}
+
+footer {
+  height: 27px;
+}
+footer .socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  transform: translateY(90px);
+}
+footer .socialmedia .icons {
+  background-color: #1D809F;
+  margin: 10px 1px 0px 20px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+footer .socialmedia .fa-brands {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  width: 39px;
+  height: 32px;
+  font-size: 17px;
+  margin-top: 14px;
+}
+footer .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: translateY(100px);
+}
+
+/* Desktop - ekran ölçüsü 1280px-dən çox;
+tablet- ekran ölçüsü 992px-dən 1279px-ə qədər ;
+smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
+@media screen and (min-width: 320px) and (max-width: 991px) {
+  .first {
+    height: 550px;
+    min-width: 400px;
+    background-repeat: no-repeat;
+  }
+  .first-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(99px);
+    margin-right: 20px;
+  }
+  .first-section-center .first-section-h {
+    font-size: 47px;
+    width: 50%;
+    text-align: center;
+    color: #292e33;
+  }
+  .first-section-center p {
+    color: #292e33;
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 550;
+    width: 64%;
+    text-align: center;
+    transform: translateY(-40px);
+  }
+  .first-section-center .first-section-btn {
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+    transform: translateY(-20px);
+    width: 40%;
+    height: 50px;
+    border-radius: 3px;
+    margin-left: 20px;
+  }
+  .second {
+    background-color: white;
+    height: 470px;
+  }
+  .second-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(80px);
+    width: 89%;
+    margin-left: 50px;
+  }
+  .second-section-center a {
+    color: rgb(24, 98, 115);
+  }
+  .second-section-center h1 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    width: 76%;
+    margin-right: 30px;
+    text-align: center;
+  }
+  .second-section-center p {
+    font-size: 13px;
+    width: 80%;
+    color: #797575;
+    transform: translateY(-30px);
+  }
+  .second-section-center .second-section-btn {
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+    background-color: rgb(39, 39, 39);
+    width: 40%;
+    height: 50px;
+    border-radius: 3px;
+    margin-right: 30px;
+  }
+  .third {
+    background-color: #1D809F;
+    height: 1000px;
+    min-width: 400px;
+  }
+  .third .third-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(90px);
+  }
+  .third .third-top h4 {
+    color: #ecb807;
+    line-height: 0px;
+  }
+  .third .third-top h1 {
+    color: white;
+    font-size: 40px;
+    line-height: 0px;
+    margin: 18px;
+  }
+  .third .third-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(120px);
+  }
+  .third .third-bottom .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .third .third-bottom .circle {
+    background-color: white;
+    margin: 30px 118px 35px 110px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+  .third .third-bottom .fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    width: 39px;
+    height: 32px;
+    font-size: 25px;
+    margin-top: 38px;
+  }
+  .third .third-bottom .mustache {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 38px;
+  }
+  .third .third-bottom .bottom-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(-603px);
+  }
+  .third .third-bottom .text {
+    text-align: center;
+    padding: 10px 10px 86px 0;
+    color: white;
+  }
+  .third .third-bottom h3 {
+    font-size: 23px;
+    line-height: 40px;
+  }
+  .third .third-bottom p {
+    color: #c3c3c3;
+    font-weight: 500px;
+    font-size: 17px;
+    margin-top: -18px;
+  }
+  .fourth {
+    height: 920px;
+    margin-top: -19.7px;
+    min-width: 400px;
+  }
+  .fourth .fourth-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(200px);
+  }
+  .fourth h1 {
+    font-size: 50px;
+    width: 200px;
+    text-align: center;
+    color: #212529;
+  }
+  .fourth .fourth-section-btn {
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+  }
+  .fifth {
+    height: 1400px;
+    min-width: 400px;
+  }
+  .fifth .fifth-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(80px);
+  }
+  .fifth .fifth-top h4 {
+    color: #ecb807;
+    line-height: 0px;
+  }
+  .fifth .fifth-top h1 {
+    color: black;
+    font-size: 40px;
+    line-height: 0px;
+    margin: 18px;
+  }
+  .fifth .boxes {
+    display: grid;
+    grid-template-rows: 230px 230px 230px 230px;
+    grid-template-columns: 300px;
+    row-gap: 20px;
+    transform: translateY(120px);
+    justify-content: center;
+  }
+  .fifth .boxes .boxestext {
+    margin-left: 18px;
+    margin-top: 59px;
+    color: white;
+  }
+  .fifth .boxes .boxestext h4 {
+    font-size: 14px;
+  }
+  .fifth .boxes .boxestext p {
+    font-size: 19px;
+    width: 220px;
+  }
+  .fifth .box1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.487), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+    background-size: cover;
+  }
+  .fifth .box2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+    background-size: cover;
+  }
+  .fifth .box3 {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+  }
+  .fifth .box4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+    background-size: cover;
+  }
+  .sixth {
+    height: 500px;
+    min-width: 400px;
+  }
+  .sixth .sixth-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(70px);
+    color: white;
+    font-size: 16px;
+    text-align: center;
+  }
+  .sixth .sixth-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+  .sixth .sixth-btn1, .sixth .sixth-btn2 {
+    margin: 10px;
+    height: 60px;
+    border: none;
+    border-radius: 8px;
+    width: 150px;
+  }
+  .sixth .sixth-btn2 {
+    background-color: #212529;
+    color: white;
+  }
+  .map {
+    height: 700px;
+  }
+  .map-section {
+    min-width: 400px;
+  }
+  footer {
+    height: 27px;
+    min-width: 400px;
+  }
+  footer .socialmedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transform: translateY(70px);
+  }
+  footer .socialmedia .icons {
+    background-color: #1D809F;
+    margin: 10px 1px 0px 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  footer .socialmedia .fa-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    width: 39px;
+    height: 32px;
+    font-size: 17px;
+    margin-top: 14px;
+  }
+  footer .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(80px);
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+  .first {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    height: 1000px;
+    min-width: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .first-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(200px);
+  }
+  .first-section-center .first-section-h {
+    font-size: 85px;
+    color: #212529;
+  }
+  .first-section-center p {
+    color: #212529;
+    font-size: 27px;
+    line-height: 20px;
+    font-weight: 550;
+    transform: translateY(-80px);
+  }
+  .first-section-center .first-section-btn {
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+    transform: translateY(-60px);
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,17 @@
+@mixin button{
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 15px;
+    font-weight: 530;
+}
+@mixin display{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
