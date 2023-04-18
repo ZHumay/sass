@@ -320,7 +320,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
 @media screen and (min-width: 320px) and (max-width: 991px) {
   .first {
     height: 550px;
-    min-width: 400px;
+    min-width: 430px;
     background-repeat: no-repeat;
   }
   .first-section-center {
@@ -411,7 +411,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .third {
     background-color: #1D809F;
     height: 1000px;
-    min-width: 400px;
+    min-width: 430px;
   }
   .third .third-top {
     display: flex;
@@ -492,7 +492,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .fourth {
     height: 920px;
     margin-top: -19.7px;
-    min-width: 400px;
+    min-width: 430px;
   }
   .fourth .fourth-section-center {
     display: flex;
@@ -520,7 +520,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   }
   .fifth {
     height: 1400px;
-    min-width: 400px;
+    min-width: 430px;
   }
   .fifth .fifth-top {
     display: flex;
@@ -577,7 +577,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   }
   .sixth {
     height: 500px;
-    min-width: 400px;
+    min-width: 430px;
   }
   .sixth .sixth-top {
     display: flex;
@@ -610,7 +610,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
     height: 700px;
   }
   .map-section {
-    min-width: 400px;
+    min-width: 430px;
   }
   footer {
     height: 27px;
@@ -652,7 +652,7 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
   .first {
     background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
     height: 1000px;
-    min-width: 1000px;
+    min-width: 1300px;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -685,6 +685,214 @@ smartfon - ekran ölçüsü 320px-dən 991px-ə qədər. */
     font-size: 15px;
     font-weight: 530;
     transform: translateY(-60px);
+  }
+  .second {
+    background-color: white;
+    height: 410px;
+    min-width: 1300px;
+  }
+  .second-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(80px);
+  }
+  .second-section-center a {
+    color: rgb(24, 98, 115);
+  }
+  .second-section-center h1 {
+    font-size: 30px;
+    font-weight: bold;
+    width: 57%;
+    text-align: center;
+  }
+  .second-section-center p {
+    font-size: 18px;
+    color: #797575;
+    transform: translateY(-30px);
+    width: 53%;
+    text-align: center;
+  }
+  .second-section-center .second-section-btn {
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+    background-color: rgb(39, 39, 39);
+  }
+  .third {
+    background-color: #1D809F;
+    height: 530px;
+    min-width: 1300px;
+  }
+  .third .third-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(90px);
+  }
+  .third .third-top h4 {
+    color: #ecb807;
+    line-height: 0px;
+  }
+  .third .third-top h1 {
+    color: white;
+    font-size: 45px;
+    line-height: 0px;
+    margin: 18px;
+  }
+  .third .third-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(120px);
+  }
+  .third .third-bottom .circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .third .third-bottom .circle {
+    background-color: white;
+    margin: 22px 32px -2px 106px;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+  }
+  .third .third-bottom .fa-solid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    width: 39px;
+    height: 32px;
+    font-size: 25px;
+    margin-top: 38px;
+  }
+  .third .third-bottom .mustache {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35px;
+    margin-top: 38px;
+  }
+  .third .third-bottom .bottom-circles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .third .third-bottom .text {
+    text-align: center;
+    padding: 16px 4px;
+    margin-left: 36px;
+    margin-right: -29px;
+    color: white;
+  }
+  .third .third-bottom h3 {
+    font-size: 23px;
+    line-height: 16px;
+  }
+  .third .third-bottom p {
+    line-height: 1px;
+    color: #c3c3c3;
+    font-weight: 500px;
+    font-size: 17px;
+  }
+  .fourth {
+    height: 920px;
+    margin-top: -22px;
+    min-width: 1300px;
+  }
+  .fourth .fourth-section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(200px);
+  }
+  .fourth h1 {
+    font-size: 60px;
+    width: 50%;
+    text-align: center;
+    color: #212529;
+  }
+  .fourth .fourth-section-btn {
+    background-color: #1d809f;
+    color: white;
+    border: none;
+    width: 170px;
+    height: 70px;
+    border-radius: 10px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 15px;
+    font-weight: 530;
+  }
+  .fifth {
+    height: 1400px;
+    min-width: 1300px;
+  }
+  .fifth .fifth-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transform: translateY(80px);
+  }
+  .fifth .fifth-top h4 {
+    color: #ecb807;
+    line-height: 0px;
+    font-size: 30px;
+  }
+  .fifth .fifth-top h1 {
+    color: black;
+    font-size: 55px;
+    line-height: 0px;
+    margin: 18px;
+  }
+  .fifth .boxes {
+    display: grid;
+    grid-template-rows: 89% 89%;
+    grid-template-columns: 45% 45%;
+    transform: translateY(120px);
+    justify-content: center;
+  }
+  .fifth .boxes .boxestext {
+    margin-left: 48px;
+    margin-top: 79px;
+    color: white;
+  }
+  .fifth .boxes .boxestext h4 {
+    font-size: 17px;
+  }
+  .fifth .boxes .boxestext p {
+    font-size: 28px;
+    width: 280px;
+  }
+  .fifth .box1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.487), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-1.jpg);
+    background-size: cover;
+  }
+  .fifth .box2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-2.jpg);
+    background-size: cover;
+  }
+  .fifth .box3 {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-3.jpg);
+  }
+  .fifth .box4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.427), rgba(0, 0, 0, 0.1)), url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/portfolio-4.jpg);
+    background-size: cover;
   }
 }
 
